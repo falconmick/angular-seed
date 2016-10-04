@@ -1,0 +1,11 @@
+{
+  "name": "angular-forms",
+  "version": "0.0.1",
+  "description": "a google forms clone in angular 2",
+  "main": "main.browser.ts",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Michael Crook",
+  "license": "ISC"
+}
