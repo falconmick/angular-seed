@@ -9,7 +9,12 @@
     "postinstall": "typings install"
   },
   "author": "Michael Crook",
-  "license": "ISC",
+  "license": "MIT",
+  "repository" :
+  { 
+    "type" : "git",
+    "url" : "https://github.com/falconmick/angular-seed"
+  },
   "dependencies": {
     "@angular/common": "2.0.1",
     "@angular/compiler": "2.0.1",
