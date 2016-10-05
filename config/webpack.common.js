@@ -56,6 +56,7 @@ module.exports = {
       $: 'jquery',
       jquery: 'jquery',
       "window.jQuery": "jquery",
+      "Hammer": "hammerjs/hammer"
     })
   ]
 };
