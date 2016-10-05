@@ -1,0 +1,29 @@
+// site colors
+$site-col-primary: #673AB7;
+$site-col-background: #EDE7F6;
+
+// buttons lables etc
+$col-active-modifier: 10%;
+$col-disabled-modifier: 10%;
+
+$col-default: #FFFFFF;
+$col-primary: #0044CC;
+$col-warning: #F89406;
+$col-danger: #BD362F;
+$col-success: #51A351;
+$col-info: #0088CC;
+
+$col-default-active: darken($col-default, $col-active-modifier);
+$col-primary-active: darken($col-primary, $col-active-modifier);
+$col-warning-active: darken($col-warning, $col-active-modifier);
+$col-danger-active: darken($col-danger, $col-active-modifier);
+$col-success-active: darken($col-success, $col-active-modifier);
+$col-info-active: darken($col-info, $col-active-modifier);
+
+$col-default-disabled: lighten($col-default, $col-active-modifier);
+$col-primary-disabled: lighten($col-primary, $col-active-modifier);
+$col-warning-disabled: lighten($col-warning, $col-active-modifier);
+$col-danger-disabled: lighten($col-danger, $col-active-modifier);
+$col-success-disabled: lighten($col-success, $col-active-modifier);
+$col-info-disabled: lighten($col-info, $col-active-modifier);
+

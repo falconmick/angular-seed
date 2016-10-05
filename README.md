@@ -9,6 +9,7 @@ Key replacements include:
 ### Features
 * Karma + Jasmin test runner
 * Webpack
+* Materialize
 
 ### Quick start
 ```bash

@@ -25,12 +25,18 @@ module.exports = {
         loader: 'html'
       },
       {
+        test: /\.(svg|woff|woff2|ttf|eot|ico)$/,
+        include: helpers.root('src', 'assets', 'styles', 'materialize', 'fonts', 'roboto'),
+        loader: 'file?name=fonts/roboto/[name].[ext]'
+      },
+      {
         test: /\.(png|jpe?g|gif|svg|woff|woff2|ttf|eot|ico)$/,
+        exclude: helpers.root('src', 'assets', 'styles', 'materialize', 'fonts', 'roboto'),
         loader: 'file?name=assets/[name].[hash].[ext]'
       },
       {
         test: /\.scss$/,
-        exclude: /node_modules/,
+        include: helpers.root('src', 'app'),
         loaders: ['raw-loader', 'sass-loader'] // sass-loader not scss-loader
       }
     ]
@@ -43,6 +49,13 @@ module.exports = {
 
     new HtmlWebpackPlugin({
       template: 'src/index.html'
+    }),
+
+    new webpack.ProvidePlugin({
+      jQuery: 'jquery',
+      $: 'jquery',
+      jquery: 'jquery',
+      "window.jQuery": "jquery",
     })
   ]
 };
