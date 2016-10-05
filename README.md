@@ -7,8 +7,8 @@ Key replacements include:
 * using TS2.0's project.json ability to get typings via `@types/` which make updating typings much easier
 
 ### Versions of this seed
-* (base angular 2 seed)[https://github.com/falconmick/angular-seed]
-* (angular 2 seed with Materialize-Css)[https://github.com/falconmick/angular-seed/tree/materializecss]
+* [base angular 2 seed](https://github.com/falconmick/angular-seed)
+* [angular 2 seed with Materialize-Css](https://github.com/falconmick/angular-seed/tree/materializecss)
 
 ### Features
 * Karma + Jasmin test runner
